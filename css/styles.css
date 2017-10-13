@@ -9,3 +9,6 @@ h2 {
 p {
   color: hotpink
 }
+li {
+  text-decoration: underline;
+}
