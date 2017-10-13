@@ -1,9 +1,10 @@
 h1 {
-  color: blue; style="background-color: gray;"
+  color: blue;
+  style="background-color: gray;"
 }
 
 h2 {
-  color: green
+  color: #f44242
 }
 
 p {
@@ -12,4 +13,8 @@ p {
 
 li {
   text-decoration: underline;
+}
+
+body {
+  background-image: url ("/Assets/Images/Super.jpg")
 }
