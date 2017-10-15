@@ -6,12 +6,17 @@ h1 {
 h2 {
   color: #f44242;
   font-size: 42px
+  font-family: "helvetica", helvetica, serif;
 }
 
 p {
   color: #fff
 }
 
+h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 42px
+}
 body {
   background-image: url(https://s-media-cache-ak0.pinimg.com/originals/eb/e5/85/ebe58566b2ed8fda8ed901e5ffe67a1f.jpg);
   background-repeat: no-repeat;
