@@ -7,7 +7,7 @@
 
 ## Description
 
-A Landing page that contains information about me and the projects that i have been working on and will continue to update.}
+A Landing page that contains information about me and the projects that i have been working on and will continue to update.
 
 ## Setup/Installation Requirements
 
