@@ -1,42 +1,109 @@
-h1 {
-  color: blue;
-  style="background-color: gray;"
+* {
+  margin: 0;
+  padding: 0;
 }
 
-h2 {
-  color: #f44242;
-  font-size: 42px
-  font-family: "helvetica", helvetica, serif;
+/*MY LINKS*/
+
+a:link {
+  color: black;
+  text-decoration-line: none;
 }
 
-p {
-  color: #fff
+a:hover {
+  color: red;
 }
 
-h3 {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 42px
+
+
+/*My ROTATOR*/
+#obj1:hover {
+  transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
 }
+
+/*OTHER ELEMENTS*/
+
 body {
-  background-image: url(https://s-media-cache-ak0.pinimg.com/originals/eb/e5/85/ebe58566b2ed8fda8ed901e5ffe67a1f.jpg);
+  background-image: url("../Assets/Images/4266213-crazy-funny-wallpaper (1).jpg");
+  background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-position: center;
 }
-.container {}
+.container-fluid {
+  margin-top: 50px;
+  margin-bottom: -50px;
+}
+.Abox {
+  margin-top: auto;
+  margin-bottom: auto;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 25% 25% 25% 25%;
+  height: 950px;
+}
 
-.left {
-width:100px;
-float:left;
-text-align:left;
+.TO {
+  font-family: tha_cool_kidzblack, monospace;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
 }
-.center {
-width:100px;
-float:left;
-text-align:center;
+
+.TO h1 {
+  font-size: 150px;
+  position:absolute;
+  left: 100px;
 }
-.right {
-width:100px;
-float:left;
-text-align:right;
+
+
+.SCHOOL {
+  font-family: tha_cool_kidzblack, monospace;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.SCHOOL h1 {
+  font-size: 150px;
+  position:absolute;
+  left: 100px;
+}
+
+.FOUR {
+  font-family: tha_cool_kidzblack, monospace;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.FOUR h1 {
+  font-size: 150px;
+  position:absolute;
+  left: 100px;
+}
+
+.COOL {
+  font-family: tha_cool_kidzblack, monospace;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.COOL h1 {
+  font-size: 150px;
+  position:absolute;
+  left: 100px;
 }
