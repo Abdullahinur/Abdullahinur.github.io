@@ -79,7 +79,7 @@ h1 {
 /*My ANIMATIONS*/
 
 @keyframes shake {
-  10%, 90% {
+  10%, 90%, 40%, 20%, 90% {
     transform: translate3d(-1px, 0, 0);
   }
   20%, 80% {
@@ -123,7 +123,7 @@ h1 {
 }
 
 #obj3 {
-  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both infinite;
+  animation: shake 0.20s cubic-bezier(.36,.07,.19,.97) both infinite;
   transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
   perspective: 1000px;
