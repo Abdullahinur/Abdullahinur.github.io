@@ -2,20 +2,20 @@
   margin: 0;
   padding: 0;
 }
+
 html, body {
-    height: 100%;
-    overflow: hidden;
+  height: 100%;
+  overflow: hidden;
 }
 
 /*MY LINKS*/
 
-a:link {
-  color: black;
-  text-decoration-line: none;
-}
-
 a:hover {
   color: red;
+}
+
+a {
+  color: #fff;
 }
 
 h1 {
@@ -23,6 +23,18 @@ h1 {
 }
 
 /*My ROTATOR*/
+
+@keyframes  bounceOutLeft {
+  20% {
+    opacity: 1;
+    transform: translate3d(20px, 0, 0);
+  }
+
+  to {
+    opacity: 0;
+    transform: translate3d(-2000px, 0, 0);
+  }
+}
 
 #obj1:hover {
   transition: 0.70s;
@@ -48,7 +60,6 @@ body {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-
 }
 
 .container-fluid {
@@ -59,8 +70,13 @@ body {
 .container-fluid img {
   margin: -750px;
   -webkit-filter: drop-shadow(5px 5px 5px #222);
-    filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+  -webkit-animation-duration: 2s;
+   animation-duration: 2s;
+   -webkit-animation-name: bounceOutLeft;
+   animation-name: bounceOutLeft;
 }
+
 .Abox {
   margin-top: auto;
   margin-bottom: auto;
@@ -79,6 +95,7 @@ body {
 }
 
 .TO h1 {
+  color: green;
   font-size: 150px;
   position: absolute;
   left: 100px;
