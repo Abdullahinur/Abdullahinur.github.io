@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
 }
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
 
 /*MY LINKS*/
 
@@ -14,9 +18,12 @@ a:hover {
   color: red;
 }
 
-
+h1 {
+  text-shadow: 0px 15px 5px rgba(0, 0, 0, 0.1), 10px 20px 5px rgba(0, 0, 0, 0.05), -10px 20px 5px rgba(0, 0, 0, 0.05);
+}
 
 /*My ROTATOR*/
+
 #obj1:hover {
   transition: 0.70s;
   -webkit-transition: 0.70s;
@@ -37,11 +44,18 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F02D9A;
+  cursor: pointer;
 }
+
 .container-fluid {
   margin-top: 50px;
   margin-bottom: -50px;
 }
+
 .Abox {
   margin-top: auto;
   margin-bottom: auto;
@@ -61,10 +75,9 @@ body {
 
 .TO h1 {
   font-size: 150px;
-  position:absolute;
+  position: absolute;
   left: 100px;
 }
-
 
 .SCHOOL {
   font-family: tha_cool_kidzblack, monospace;
@@ -76,7 +89,7 @@ body {
 
 .SCHOOL h1 {
   font-size: 150px;
-  position:absolute;
+  position: absolute;
   left: 100px;
 }
 
@@ -90,7 +103,7 @@ body {
 
 .FOUR h1 {
   font-size: 150px;
-  position:absolute;
+  position: absolute;
   left: 100px;
 }
 
@@ -104,6 +117,6 @@ body {
 
 .COOL h1 {
   font-size: 150px;
-  position:absolute;
+  position: absolute;
   left: 100px;
 }
