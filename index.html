@@ -14,20 +14,30 @@
 
 <body>
   <div class="container-fluid">
-    <img src="Assets/Images/4266213-crazy-funny-wallpaper_clipped_rev_1.jpeg" alt="best-buds">
+    <img id="obj2" src="Assets/Images/4266213-crazy-funny-wallpaper_clipped_rev_1.jpeg" alt="best-buds">
 
 
-  <div class="Abox">
-    <div class="TO">
-      <h1 class="text-shadow" id="obj1"><a href="#">TO</a></h1></div>
-    <div class="SCHOOL">
-      <h1 id="obj1" responsive><a href="#">SCHOOL</a></h1></div>
-    <div class="FOUR">
-      <h1 id="obj1" responsive><a href="#">FOR</a></h1></div>
-    <div class="COOL">
-      <h1 id="obj1" responsive><a href="#">COOL</a></h1></div>
+    <div class="Abox">
+      <div class="TO">
+        <h2 class="text-shadow" id="obj1"><span onclick="openNav()">&#9776;<a href="#">TO</a></span></h2>
+      </div>
+      <div class="SCHOOL">
+        <h1 id="obj1" responsive><a href="#">SCHOOL</a></h1></div>
+      <div class="FOUR">
+        <h1 id="obj1" responsive><a href="#">FOR</a></h1></div>
+      <div class="COOL">
+        <h1 id="obj1" responsive><a href="#">COOL</a></h1></div>
+    </div>
+  </div>
+  <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#">About Me</a>
+    <a href="#">Projects</a>
+    <img src="Assets/Images/goggles_clipped_rev_1.png" alt="ABISH" id="obj3">
   </div>
 </div>
+<script src="js/scripts.js"></script>
 </body>
 
 </html>
