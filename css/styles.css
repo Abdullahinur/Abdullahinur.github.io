@@ -40,15 +40,15 @@ h1 {
 /*OTHER ELEMENTS*/
 
 body {
-  background-image: url("../Assets/Images/4266213-crazy-funny-wallpaper (1).jpg");
+  background-image: url("../Assets/Images/4266213-crazy-funny-wallpaper_clipped_rev_1 (1).jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #F02D9A;
   cursor: pointer;
+
 }
 
 .container-fluid {
@@ -56,6 +56,11 @@ body {
   margin-bottom: -50px;
 }
 
+.container-fluid img {
+  margin: -750px;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+}
 .Abox {
   margin-top: auto;
   margin-bottom: auto;
