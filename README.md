@@ -17,7 +17,7 @@ A Landing page that contains information about me and the projects that i have b
 
 ## Technologies Used
 
-This Landingpage was created using the languages html and css
+This Landingpage was created using Javascript(P5.js) and css
 
 ## Support and contact details
 
